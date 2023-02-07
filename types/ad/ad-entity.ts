@@ -1,3 +1,7 @@
+export interface NewAdEntity extends Omit<AdEntity,'id'> {
+    id?: string;
+}
+
 export interface AdEntity {
     id:string;
     name: string,
@@ -5,6 +9,6 @@ export interface AdEntity {
     price: number;
     url: string;
     lat: number;
-    lon: number; // kordynaty lat i lon
+    lon: number; // coordination  lat i lon
 
 }
