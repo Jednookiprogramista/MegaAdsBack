@@ -56,8 +56,8 @@ test('AdRecord.findAll returns smaller amount of data',async()=> {
 
     const ads = await AdRecord.findAll('')
 
-    expect((ads[0]as AdEntity).price).toBeUndefined();
-    expect((ads[0]as AdEntity).description).toBeUndefined();
+    expect((ads[0] as AdEntity).price).toBeUndefined();
+    expect((ads[0] as AdEntity).description).toBeUndefined();
 
 });
 

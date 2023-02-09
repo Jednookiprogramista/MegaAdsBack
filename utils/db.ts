@@ -6,4 +6,5 @@ export const pool = createPool({
     database: 'megak_ads',
     namedPlaceholders: true,
     decimalNumbers: true,
-})
+});
+

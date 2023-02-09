@@ -15,7 +15,7 @@ export class AdRecord implements AdEntity{
     public price: number;
     public url: string;
     constructor(obj: NewAdEntity) {
-        if (obj.name || obj.name.length >100 ) {
+        if (!obj.name || obj.name.length >100 ) {
             throw new ValidationError('The ad name cannot be empty or exceed 100 characters.');
         }
         if(obj.description.length > 1000) {
@@ -27,7 +27,7 @@ export class AdRecord implements AdEntity{
         }
         //@TODO check if url is valid!
 
-        if (obj.url || obj.url.length >100 ) {
+        if (!obj.url || obj.url.length >100 ) {
             throw new ValidationError('The ad link cannot be empty or exceed 100 characters');
         }
         if (typeof obj.lat !=='number' || typeof obj.lon !=='number') {
