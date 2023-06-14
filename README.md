@@ -1,6 +1,6 @@
 # Mega Ads🗺
 
-## About The Project ✍
+About The Project ✍
 
 MegaAds is an app where you can add and find ads on a world map. It lets you place ads with price, link, and description, making it easy to promote and search for various offerings globally. With a user-friendly interface and geolocation technology, users can explore ads, connect with advertisers, and discover products, services, and events worldwide. MegaAds allows you to share information and connect with a broad audience on a global scale.
 <br>
